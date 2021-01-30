@@ -1,11 +1,13 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+name: "gblog"
+title: "gblog"
+tagline: "I write about things I think here"
+url: https://gblog.github.io.com
+description: "I write about things I think here" 
 paginate: 1
 baseurl: ""
-permalink: pretty
-
+permalink: /:title/
+include: ["_pages"]
 # Gems
 plugins:
   - jekyll-gist
@@ -33,9 +35,8 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Kshitij Kotasthane
+  email: kshitij.kotasthane@gmail.com
 
 # Custom vars
 version: 3.0.0
